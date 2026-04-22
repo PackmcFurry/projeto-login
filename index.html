@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle" />
+
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-querie.css">
+</head>
+<body>
+    <div id="menu">
+        <iframe id="predio" src="predio.html" frameborder="0"></iframe>
+        <section>
+            <h1>Login</h1>
+            <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer configurações no seu ambiente.</p>
+
+            <form action="" method="post">
+                <div class="user">
+                    <label for="iemail">
+                        <span class="material-symbols-rounded">account_circle</span>
+                    </label>
+                    <input class="user" type="email" name="email" id="iemail" required>
+                </div>
+                <div class="pass">
+                    <label for="isenha">
+                        <span class="material-symbols-outlined">key</span>
+                    </label>
+                    <input class="pass" type="password" name="senha" id="isenha" required>
+                </div>
+
+                <div>
+                    <input class="entrar" type="submit" value="Entrar"> <br>
+                    <input class="apagar" type="button" value="Esqueci senha">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

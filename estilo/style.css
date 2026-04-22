@@ -1,0 +1,76 @@
+:root{
+    --cor0: #915750;
+    --cor1: #495566;
+    --cor2: #BCE632;
+    --cor3: #E64732;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor0)
+}
+
+div#menu{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div > iframe{
+    position: relative;
+    top: 4px;
+    width: 300px;
+}
+
+div > section{
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+}
+
+div > section > h1{
+    text-align: center;
+}
+
+div.user{
+    padding: 1px;
+    background-color: purple;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+
+div.pass{
+    padding: 1px;
+    background-color: purple;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+
+input.user{
+    border-radius: 8px;
+    height: 35px;
+}
+
+input.pass{
+    border-radius: 8px;
+    height: 35px;
+    position: relative;
+    top: -1px;
+    left: 28px;
+}
+
+span{
+    padding-right: 40px;
+    color: white;
+}
