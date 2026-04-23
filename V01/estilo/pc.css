@@ -1,0 +1,67 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg,
+  #915750 55%,
+  #495566);
+}
+
+div#menu{
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-35%,-75%);
+}
+
+div > iframe{
+    position: relative;
+    top: 354px;
+    left: 550px;
+    width: 350px;
+    height: 350px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+div > section{
+    padding: 10px;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    text-align: justify;
+}
+
+input.user , input.pass{
+    border-radius: 8px;
+    height: 34px;
+    width: 475px;
+    position: relative;
+    top: -6px;
+    left: -5px;
+    font-size: 20px;
+    border: 0px;
+    background-color: rgb(117, 138, 168);
+}
+
+#entrar , #esquece{
+    margin: auto;
+    height: 40px;
+    width: 530px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form{
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 2.3em;
+    padding: 10px 0px;
+}
+
+p{
+   font-size: 1.1em;
+}
